@@ -1,0 +1,22 @@
+:root {
+  --Light-red: #ff5757;
+  --Orangey-yellow: rgba(255, 177, 31, 0.158);
+  --Green-teal: rgba(0, 189, 145, 0.098);
+  --Cobalt-blue: rgba(110, 122, 230, 0.218);
+  --Light-slate-blue-background: #7857ff;
+  --Light-royal-blue-background: #2e2be9;
+  --Violet-blue-circle: #4e21ca;
+  --Persian-blue-circle: #2421ca00;
+  --White: #ffffffff;
+  --Pale-blue: #ebf1ffff;
+  --Light-lavender: #c8c7ffff;
+  --Dark-gray-blue: #303b5aff;
+  --Font-size-paragraphs: 18px;
+  --font-family: "Hanken Grotesk", sans-serif;
+  --Weights: 500, 700, 800;
+  --red-bg: rgba(249, 240, 240);
+  --yellow: #ffb01fff;
+  --red: #ff5757ff;
+  --Green: #00bd91ff;
+  --blue: #1125d4ff;
+}

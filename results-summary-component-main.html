@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="results-summary-component-main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-[var(--Pale-blue)] h-[700px] md:h-[100vh] flex justify-center items-center"
+  >
+    <!-- Main container div -->
+    <div
+      class="bg-[var(--White)] md:h-[430px] flex flex-col md:flex-row justify-center items-center] rounded-[20px] w-[100%]  md:w-[700px] shadow-2xl"
+    >
+      <!-- left section -->
+      <div
+        class="bg-linear-to-b from-[var(--Light-slate-blue-background)] to-[var(--Light-royal-blue-background)] md:w-[400px] h-[100%] rounded-[20px] p-10"
+      >
+        <div
+          class="flex justify-center items-center text-[var(--White)] opacity-70  font-[Hanken_Grotesk] font-[700] text-[20px] mb-4"
+        >
+          <p>Your Result</p>
+        </div>
+
+        <div
+          class="bg-linear-to-b from-[var(--Violet-blue-circle)] to-[var(--Persian-blue-circle)] w-[150px] h-[150px] rounded-full mx-auto flex flex-col justify-center items-center"
+        >
+          <p
+            class="text-[var(--White)] text-[50px] font-[Hanken_Grotesk] font-[700]"
+          >
+            76
+          </p>
+
+          <p
+            class="text-[var(--White)] font-[Hanken_Grotesk] opacity-30 font-[500]"
+          >
+            of 100
+          </p>
+        </div>
+        <div class="flex justify-center items-center pt-9">
+          <p
+            class="text-[var(--White)] text-[30px] font-[700] font-[Hanken_Grotesk]"
+          >
+            Great
+          </p>
+        </div>
+
+        <div class="flex justify-center items-center">
+          <p
+            class="text-[var(--White)] text-center font-[500] py-4 text-[14px] md:text-[17px] opacity-70"
+          >
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <!-- left section end -->
+
+      <!-- right sec -->
+      <div
+        class="bg-[var(--White)] md:w-[400px] h-[100%] rounded-[20px] flex flex-col p-8 font-[Hanken_Grotesk]"
+      >
+        <div class="mb-6 font-[700] text-[20px]">
+          <p>Summary</p>
+        </div>
+
+        <div class="flex bg-[var(--red-bg)] p-2 rounded-xl mb-6">
+          <img src="./images/icon-reaction.svg" alt="" />
+
+          <p class="font-[700] ml-2 text-[var(--red)]">Reaction</p>
+          <p class="ml-auto font-[700]">
+            92 / <span class="font-[400] opacity-50">100</span>
+          </p>
+        </div>
+
+        <div class="flex bg-[var(--Orangey-yellow)] p-2 rounded-xl mb-6">
+          <img src="./images/icon-memory.svg" alt="" />
+          <p class="font-[700] ml-2 text-[var(--yellow)]">Memory</p>
+
+          <p class="ml-auto font-[700]">
+            92 / <span class="font-[400] opacity-50">100</span>
+          </p>
+        </div>
+
+        <div class="flex bg-[var(--Green-teal)] p-2 rounded-xl mb-6">
+          <img src="./images/icon-verbal.svg" alt="" />
+          <p class="font-[700] ml-2 text-[var(--Green)]">Verbal</p>
+
+          <p class="ml-auto font-[700]">
+            92 / <span class="font-[400] opacity-50">100</span>
+          </p>
+        </div>
+
+        <div class="flex bg-[var(--Cobalt-blue)] p-2 rounded-xl">
+          <img src="./images/icon-visual.svg" alt="" />
+          <p class="font-[700] ml-2 text-[var(--blue)]">Visual</p>
+
+          <p class="ml-auto font-[700]">
+            92 / <span class="font-[400] opacity-50">100</span>
+          </p>
+        </div>
+
+        <div
+          class="flex justify-center items-center bg-[var(--Dark-gray-blue)] mt-10 p-2 rounded-4xl"
+        >
+          <p class="text-[var(--White)]">Continue</p>
+        </div>
+      </div>
+      <!-- right sec end -->
+    </div>
+    <!-- Main container div end -->
+  </body>
+</html>
